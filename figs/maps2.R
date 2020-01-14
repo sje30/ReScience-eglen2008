@@ -41,7 +41,7 @@ real.sim.plot <- function(fit, name, soma.rad=2, bar,
 
 }
 
-postscript("hor_fieldA.ps", width=inch(17), height=inch(8.3),
+pdf("hor_fieldA.pdf", width=inch(17), height=inch(8.3),
            horiz=F, onefile=F)
 par(mar=c(0.1,.1,.1,.1), bty='n', mfrow=c(1,2))
 real.sim.plot(fa.fit, name='', soma.rad=5, bar=c(50, 30, 100))
