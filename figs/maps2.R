@@ -3,10 +3,6 @@ library(sjedist)
 ## runs the simulations.
 
 load("fa.Rda")  ## version for paper.
-load('fa_csn.Rda')
-
-load("fb.Rda")
-load("fc.Rda")
 
 
 
